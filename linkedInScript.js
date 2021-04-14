@@ -5,8 +5,10 @@
 4. withdraw all the pending requests */
 
 const puppy = require("puppeteer");
-const id = "hydrogenkumar1010@gmail.com";
-const pass = "hydrogen";
+
+// enter your id and password here 
+const id = "yourEmailId@example.com";
+const pass = "yourPassword";
 
 // main function to start execution
 async function main() {
@@ -47,7 +49,7 @@ async function main() {
     // await acceptRequests(tab);1
 
     // closing the browser
-    // await browser.close();
+    await browser.close();
 
 }
 
@@ -76,4 +78,5 @@ async function withdrawAll(tab, allWithdrawButtons) {
     }
 }
 
+// calling of main function
 main();
