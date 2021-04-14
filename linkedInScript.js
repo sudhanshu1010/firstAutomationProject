@@ -41,10 +41,10 @@ async function main() {
     // let allUrls = await tab.$$('time[class="time-badge time-ago"]');
 
     // calling function to withdraw all the requests
-    // await withdrawAll(tab, allWithdrawButtons);
+    await withdrawAll(tab, allWithdrawButtons);
 
     // calling function to accept requests
-    await acceptRequests(tab);
+    // await acceptRequests(tab);1
 
     // closing the browser
     // await browser.close();
